@@ -14,30 +14,42 @@ function countUnlucky(arr) {
   return numOfUnlucky;
 }
 
+function fortune(totalUnlucky) {
+  if (totalUnlucky < 5) {
+    $("#lucky").show();
+  }
+  else if (totalUnlucky === 5) {
+    $("#neutral").show();
+  }
+  else {
+    $("#unlucky").show();
+  }
+}
+
 $(document).ready(function() {
   $("form#fortune").submit(function(event) {
     event.preventDefault();
 
-    let userItems = [];
-    let userQuarantine = [];
-    let userGoals = [];
+    let userResponses=[];
 
     $("input:checkbox[name=items]:checked").each(function(){
       const roomItem = $(this).val();
-      userItems.push(roomItem);
+      userResponses.push(roomItem);
     });
 
     $("input:checkbox[name=quarantine]:checked").each(function(){
       const quarantine= $(this).val();
-      userQuarantine.push(quarantine);
+      userResponses.push(quarantine);
     });
 
     $("input:checkbox[name=goals]:checked").each(function(){
       const goals = $(this).val();
-      userGoals.push(goals);
+      userResponses.push(goals);
     });
-    console.log(userItems);
-    console.log(userQuarantine);
-    console.log(userGoals);
+    
+    const userName = $("input#name").val();
+    $(".userName").text(userName);
+    fortune(countUnlucky(userResponses));
+
   });
 });
