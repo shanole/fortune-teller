@@ -13,7 +13,7 @@
 * JQuery
 * CSS
 * Bootstrap
-* HTML
+* HTM
 * Markdown
 
 ## Description
@@ -28,7 +28,7 @@ This website collects user inputs via 3 checklists forms and outputs the user's 
 
 ## Known Bugs
 
-* User needs to refresh page to resubmit the form
+* None at this time
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
