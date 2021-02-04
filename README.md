@@ -37,6 +37,6 @@ Marni Sucher, Shannon Lee, Juan Hasbun
 
 ## Contact Information
 
-Juan Hasbun: [zemenarwow@gmail.com](zemenarwow@gmail.com)
-Marni Sucher: [suchermarni@gmail.com](suchermarni@gmail.com)
-Shannon Lee: [shannonleehj@gmail.com](shannonleehj@gmail.com)
+* Juan Hasbun: [zemenarwow@gmail.com](zemenarwow@gmail.com)
+* Marni Sucher: [suchermarni@gmail.com](suchermarni@gmail.com)
+* Shannon Lee: [shannonleehj@gmail.com](shannonleehj@gmail.com)
