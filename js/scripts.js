@@ -49,7 +49,11 @@ $(document).ready(function() {
     
     const userName = $("input#name").val();
     $(".userName").text(userName);
+    $("form#fortune").hide();
     fortune(countUnlucky(userResponses));
-
+    $("#refresh").show();
+  });
+  $('#goBack').click(function() {
+    window.location='/index.html';
   });
 });

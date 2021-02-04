@@ -31,3 +31,7 @@ body {
 #neutral {
   display: none;
 }
+
+#refresh {
+  display: none;
+}
