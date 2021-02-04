@@ -20,14 +20,14 @@ body {
   color: white;
 }
 
-#result1 {
+#lucky {
   display: none;
 }
 
-#result2 {
+#unlucky {
   display: none;
 }
 
-#result3 {
+#neutral {
   display: none;
 }
