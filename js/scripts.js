@@ -53,7 +53,8 @@ $(document).ready(function() {
     fortune(countUnlucky(userResponses));
     $("#refresh").show();
   });
+  
   $('#goBack').click(function() {
-    window.location='/index.html';
+    window.location.href='index.html';
   });
 });
